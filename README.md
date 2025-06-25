@@ -1,8 +1,8 @@
-# 📚 GitHub Handbook for Beginners
+# GitHub Handbook for Beginners
 
 A comprehensive guide to mastering GitHub from beginner to advanced level.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [What is GitHub?](#what-is-github)
 - [Version Control with GitHub](#version-control-with-github)
@@ -18,7 +18,7 @@ A comprehensive guide to mastering GitHub from beginner to advanced level.
 - [Troubleshooting](#troubleshooting)
 - [Resources](#resources)
 
-## 🤔 What is GitHub?
+## What is GitHub?
 
 GitHub is a web-based platform that uses Git for version control. It allows developers to:
 - Store and manage code repositories
@@ -36,28 +36,28 @@ GitHub is a web-based platform that uses Git for version control. It allows deve
 - **Fork**: A copy of someone else's repository
 - **Pull Request**: A request to merge changes into a repository
 
-## � Version Control with GitHub
+## Version Control with GitHub
 
 Version control is the backbone of modern software development. GitHub uses Git to track every change in your codebase, creating a complete history of your project's evolution.
 
 ### Why Version Control Matters
 
-**🔍 Track Changes**
+**Track Changes**
 - See exactly what changed, when, and who made the change
 - Compare different versions of files
 - Understand the evolution of your project
 
-**🔄 Revert Changes**
+**Revert Changes**
 - Undo problematic changes safely
 - Roll back to any previous version
 - Experiment without fear of breaking things
 
-**🌿 Parallel Development**
+**Parallel Development**
 - Multiple developers can work on different features simultaneously
 - Merge changes from different contributors
 - Resolve conflicts when changes overlap
 
-**📚 Documentation**
+**Documentation**
 - Every change includes a commit message explaining why
 - Link commits to issues and pull requests
 - Maintain release notes and changelogs
@@ -199,7 +199,7 @@ git checkout commit-hash
 git checkout -b fix-branch commit-hash
 ```
 
-## 🤝 Collaborative Development
+## Collaborative Development
 
 GitHub transforms individual coding into team collaboration. Here's how developers work together effectively using GitHub's collaborative features.
 
@@ -526,7 +526,7 @@ release/v2.2.0-beta
 
 This collaborative approach ensures that teams can work efficiently together, maintain code quality, and deliver reliable software while keeping everyone informed and aligned.
 
-## �🚀 Getting Started
+## Getting Started
 
 ### 1. Create a GitHub Account
 
@@ -584,7 +584,7 @@ Add the SSH key to your GitHub account:
 2. Click "New SSH key"
 3. Paste your public key
 
-## 💻 Basic Git Commands
+## Basic Git Commands
 
 ### Repository Operations
 
@@ -634,7 +634,7 @@ git diff --staged             # Staged changes
 git diff HEAD~1               # Compare with previous commit
 ```
 
-## 🔄 GitHub Workflow
+## GitHub Workflow
 
 ### Basic Workflow
 
@@ -670,7 +670,7 @@ git push origin feature/new-feature
 # 7. After review, merge the PR
 ```
 
-## 🌿 Branching and Merging
+## Branching and Merging
 
 ### Branch Operations
 
@@ -709,7 +709,7 @@ git merge --no-ff feature-name
 git rebase main
 ```
 
-## 👥 Collaboration
+## Collaboration
 
 ### Forking Workflow
 
@@ -751,7 +751,7 @@ git push origin main
 - Keep changes focused and small
 - Respond to feedback promptly
 
-## 🛠️ GitHub Features
+## GitHub Features
 
 ### Issues
 
@@ -831,7 +831,7 @@ Host static websites directly from your repository:
 3. Select source branch
 4. Your site will be available at `username.github.io/repository`
 
-## ✅ Best Practices
+## Best Practices
 
 ### Commit Messages
 
@@ -910,7 +910,7 @@ Thumbs.db
 logs/
 ```
 
-## 🚀 Advanced Topics
+## Advanced Topics
 
 ### Git Hooks
 
@@ -969,7 +969,7 @@ git bisect bad
 git bisect good commit-hash
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -1019,7 +1019,7 @@ git lfs track "*.zip"
 git add .gitattributes
 ```
 
-## 📚 Resources
+## Resources
 
 ### Official Documentation
 - [GitHub Docs](https://docs.github.com/)
@@ -1041,7 +1041,7 @@ git add .gitattributes
 - [GitHub Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Interactive Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html)
 
-## 🤝 Contributing
+## Contributing
 
 This handbook is open source! Feel free to:
 - Report issues
@@ -1049,12 +1049,10 @@ This handbook is open source! Feel free to:
 - Submit pull requests
 - Share with others
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Happy coding! 🎉**
-
-*Remember: The best way to learn Git and GitHub is by practicing. Start with small projects and gradually work your way up to more complex workflows.*
+**Remember**: The best way to learn Git and GitHub is by practicing. Start with small projects and gradually work your way up to more complex workflows.
